@@ -29,6 +29,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="../resources/js/placa.js"></script>
 
         <style>
             /* Light mode styles */
@@ -105,7 +106,8 @@
                                     </select>
                                 </li>
                                 <li class="nav-item" style="padding-left: 20px;">
-                                    <input type="submit" value="Submit" class="btn btn-primary">
+                                    <input type="submit" value="Reset" id="btn-reset" class="btn btn-primary">
+                                </li>
                             </ul>
                         </div>
                     </div>
